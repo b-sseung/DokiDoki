@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                app:columnCount="6">
+
+                <ImageView
+                    android:id="@+id/cherry002_collection_chuge_01"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"/>
+
+                <ImageView
+                    android:id="@+id/cherry002_collection_chuge_02"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"/>
+
+                <ImageView
+                    android:id="@+id/cherry002_collection_chuge_03"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"/>
+
+                <ImageView
+                    android:id="@+id/cherry002_collection_chuge_04"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"/>
+
+                <ImageView
+                    android:id="@+id/cherry002_collection_chuge_05"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"/>
+
+                <ImageView
+                    android:id="@+id/cherry002_collection_chuge_06"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"/>
+
+                <ImageView
+                    android:id="@+id/cherry002_collection_chuge_07"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"/>
+
+                <ImageView
+                    android:id="@+id/cherry002_collection_chuge_08"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"/>
+
+                <ImageView
+                    android:id="@+id/cherry002_collection_chuge_09"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"/>
+
+                <ImageView
+                    android:id="@+id/cherry002_collection_chuge_10"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"/>
+
+                <ImageView
+                    android:id="@+id/cherry002_collection_chuge_11"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"/>
+            </androidx.gridlayout.widget.GridLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

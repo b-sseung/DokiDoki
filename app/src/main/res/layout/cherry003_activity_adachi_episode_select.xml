@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cherry003_adachi_episode_main_base">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/cherry003_adachi_episode_background"
+            android:visibility="invisible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:src="@drawable/adachi_episode1_background"/>
+
+        <LinearLayout
+            android:id="@+id/cherry3_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="6.96"/>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="10.46">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/cherry003_adachi_episode_main_white"/>
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fillViewport="true"
+                    android:fadingEdge="none">
+
+                   <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent">
+                       <!-- 에피소드1 -->
+                       <LinearLayout
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_marginLeft="50dp"
+                           android:orientation="vertical">
+
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="0dp"
+                               android:layout_weight="1.57"/>
+
+                           <FrameLayout
+                               android:layout_width="wrap_content"
+                               android:layout_height="0dp"
+                               android:layout_weight="8.41">
+
+                               <LinearLayout
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:orientation="vertical">
+
+                                   <FrameLayout
+                                       android:layout_width="wrap_content"
+                                       android:layout_height="0dp"
+                                       android:layout_weight="7.42">
+
+                                       <ImageView
+                                           android:id="@+id/cherry003_adachi_episode1_thumnail"
+                                           android:layout_width="match_parent"
+                                           android:layout_height="match_parent"
+                                           android:adjustViewBounds="true"
+                                           android:layout_gravity="top"/>
+
+                                       <ImageView
+                                           android:id="@+id/cherry003_adachi_episode1_unselect"
+                                           android:layout_width="match_parent"
+                                           android:layout_height="match_parent"
+                                           android:adjustViewBounds="true"
+                                           android:layout_gravity="top"
+                                           android:src="@drawable/cherry003_adachi_episode_unselect"/>
+
+                                       <ImageView
+                                           android:id="@+id/cherry003_adachi_episode1_text"
+                                           android:layout_width="match_parent"
+                                           android:layout_height="match_parent"
+                                           android:adjustViewBounds="true"
+                                           android:layout_gravity="top"/>
+
+                                   </FrameLayout>
+
+                                   <TextView
+                                       android:layout_width="wrap_content"
+                                       android:layout_height="0dp"
+                                       android:layout_weight="0.99"/>
+
+                               </LinearLayout>
+
+                               <ImageView
+                                   android:id="@+id/cherry003_adachi_episode1_select"
+                                   android:visibility="invisible"
+                                   android:layout_width="match_parent"
+                                   android:layout_height="match_parent"
+                                   android:adjustViewBounds="true"
+                                   android:layout_gravity="top"
+                                   android:src="@drawable/cherry003_adachi_episode_select"/>
+                           </FrameLayout>
+
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="0dp"
+                               android:layout_weight="0.48"/>
+                       </LinearLayout>
+
+                       <!-- 에피소드2 -->
+                       <LinearLayout
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_marginLeft="50dp"
+                           android:orientation="vertical">
+
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="0dp"
+                               android:layout_weight="1.57"/>
+
+                           <FrameLayout
+                               android:layout_width="wrap_content"
+                               android:layout_height="0dp"
+                               android:layout_weight="8.41">
+
+                               <LinearLayout
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:orientation="vertical">
+
+                                   <FrameLayout
+                                       android:layout_width="wrap_content"
+                                       android:layout_height="0dp"
+                                       android:layout_weight="7.42">
+
+                                       <ImageView
+                                           android:id="@+id/cherry003_adachi_episode2_thumnail"
+                                           android:layout_width="wrap_content"
+                                           android:layout_height="wrap_content"
+                                           android:adjustViewBounds="true"
+                                           android:layout_gravity="top"/>
+
+                                       <ImageView
+                                           android:id="@+id/cherry003_adachi_episode2_unselect"
+                                           android:layout_width="wrap_content"
+                                           android:layout_height="wrap_content"
+                                           android:adjustViewBounds="true"
+                                           android:layout_gravity="top"
+                                           android:src="@drawable/cherry003_adachi_episode_unselect"/>
+
+                                       <ImageView
+                                           android:id="@+id/cherry003_adachi_episode2_text"
+                                           android:layout_width="wrap_content"
+                                           android:layout_height="wrap_content"
+                                           android:adjustViewBounds="true"
+                                           android:layout_gravity="top"/>
+
+                                   </FrameLayout>
+
+                                   <TextView
+                                       android:layout_width="wrap_content"
+                                       android:layout_height="0dp"
+                                       android:layout_weight="0.99"/>
+
+                               </LinearLayout>
+
+                               <ImageView
+                                   android:id="@+id/cherry003_adachi_episode2_select"
+                                   android:visibility="invisible"
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:adjustViewBounds="true"
+                                   android:layout_gravity="top"
+                                   android:src="@drawable/cherry003_adachi_episode_select"/>
+                           </FrameLayout>
+
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="0dp"
+                               android:layout_weight="0.48"/>
+                       </LinearLayout>
+
+                       <!-- 에피소드3 -->
+                       <LinearLayout
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_marginLeft="50dp"
+                           android:orientation="vertical">
+
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="0dp"
+                               android:layout_weight="1.57"/>
+
+                           <FrameLayout
+                               android:layout_width="wrap_content"
+                               android:layout_height="0dp"
+                               android:layout_weight="8.41">
+
+                               <LinearLayout
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:orientation="vertical">
+
+                                   <FrameLayout
+                                       android:layout_width="wrap_content"
+                                       android:layout_height="0dp"
+                                       android:layout_weight="7.42">
+
+                                       <ImageView
+                                           android:id="@+id/cherry003_adachi_episode3_thumnail"
+                                           android:layout_width="wrap_content"
+                                           android:layout_height="wrap_content"
+                                           android:adjustViewBounds="true"
+                                           android:layout_gravity="top"/>
+
+                                       <ImageView
+                                           android:id="@+id/cherry003_adachi_episode3_unselect"
+                                           android:layout_width="wrap_content"
+                                           android:layout_height="wrap_content"
+                                           android:adjustViewBounds="true"
+                                           android:layout_gravity="top"
+                                           android:src="@drawable/cherry003_adachi_episode_unselect"/>
+
+                                       <ImageView
+                                           android:id="@+id/cherry003_adachi_episode3_text"
+                                           android:layout_width="wrap_content"
+                                           android:layout_height="wrap_content"
+                                           android:adjustViewBounds="true"
+                                           android:layout_gravity="top"/>
+
+                                   </FrameLayout>
+
+                                   <TextView
+                                       android:layout_width="wrap_content"
+                                       android:layout_height="0dp"
+                                       android:layout_weight="0.99"/>
+
+                               </LinearLayout>
+
+                               <ImageView
+                                   android:id="@+id/cherry003_adachi_episode3_select"
+                                   android:visibility="invisible"
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:adjustViewBounds="true"
+                                   android:layout_gravity="top"
+                                   android:src="@drawable/cherry003_adachi_episode_select"/>
+                           </FrameLayout>
+
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="0dp"
+                               android:layout_weight="0.48"/>
+                       </LinearLayout>
+
+                       <!-- 에피소드4-->
+                       <LinearLayout
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_marginLeft="50dp"
+                           android:orientation="vertical">
+
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="0dp"
+                               android:layout_weight="1.57"/>
+
+                           <FrameLayout
+                               android:layout_width="wrap_content"
+                               android:layout_height="0dp"
+                               android:layout_weight="8.41">
+
+                               <LinearLayout
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:orientation="vertical">
+
+                                   <FrameLayout
+                                       android:layout_width="wrap_content"
+                                       android:layout_height="0dp"
+                                       android:layout_weight="7.42">
+
+                                       <ImageView
+                                           android:id="@+id/cherry003_adachi_episode4_thumnail"
+                                           android:layout_width="wrap_content"
+                                           android:layout_height="wrap_content"
+                                           android:adjustViewBounds="true"
+                                           android:layout_gravity="top"/>
+
+                                       <ImageView
+                                           android:id="@+id/cherry003_adachi_episode4_unselect"
+                                           android:layout_width="wrap_content"
+                                           android:layout_height="wrap_content"
+                                           android:adjustViewBounds="true"
+                                           android:layout_gravity="top"
+                                           android:src="@drawable/cherry003_adachi_episode_unselect"/>
+
+                                       <ImageView
+                                           android:id="@+id/cherry003_adachi_episode4_text"
+                                           android:layout_width="wrap_content"
+                                           android:layout_height="wrap_content"
+                                           android:adjustViewBounds="true"
+                                           android:layout_gravity="top"/>
+
+                                   </FrameLayout>
+
+                                   <TextView
+                                       android:layout_width="wrap_content"
+                                       android:layout_height="0dp"
+                                       android:layout_weight="0.99"/>
+
+                               </LinearLayout>
+
+                               <ImageView
+                                   android:id="@+id/cherry003_adachi_episode4_select"
+                                   android:visibility="invisible"
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:adjustViewBounds="true"
+                                   android:layout_gravity="top"
+                                   android:src="@drawable/cherry003_adachi_episode_select"/>
+                           </FrameLayout>
+
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="0dp"
+                               android:layout_weight="0.48"/>
+                       </LinearLayout>
+
+                       <!-- 에피소드5 -->
+                       <LinearLayout
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_marginLeft="50dp"
+                           android:orientation="vertical">
+
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="0dp"
+                               android:layout_weight="1.57"/>
+
+                           <FrameLayout
+                               android:layout_width="wrap_content"
+                               android:layout_height="0dp"
+                               android:layout_weight="8.41">
+
+                               <LinearLayout
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:orientation="vertical">
+
+                                   <FrameLayout
+                                       android:layout_width="wrap_content"
+                                       android:layout_height="0dp"
+                                       android:layout_weight="7.42">
+
+                                       <ImageView
+                                           android:id="@+id/cherry003_adachi_episode5_thumnail"
+                                           android:layout_width="wrap_content"
+                                           android:layout_height="wrap_content"
+                                           android:adjustViewBounds="true"
+                                           android:layout_gravity="top"/>
+
+                                       <ImageView
+                                           android:id="@+id/cherry003_adachi_episode5_unselect"
+                                           android:layout_width="wrap_content"
+                                           android:layout_height="wrap_content"
+                                           android:adjustViewBounds="true"
+                                           android:layout_gravity="top"
+                                           android:src="@drawable/cherry003_adachi_episode_unselect"/>
+
+                                       <ImageView
+                                           android:id="@+id/cherry003_adachi_episode5_text"
+                                           android:layout_width="wrap_content"
+                                           android:layout_height="wrap_content"
+                                           android:adjustViewBounds="true"
+                                           android:layout_gravity="top"/>
+
+                                   </FrameLayout>
+
+                                   <TextView
+                                       android:layout_width="wrap_content"
+                                       android:layout_height="0dp"
+                                       android:layout_weight="0.99"/>
+
+                               </LinearLayout>
+
+                               <ImageView
+                                   android:id="@+id/cherry003_adachi_episode5_select"
+                                   android:visibility="invisible"
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:adjustViewBounds="true"
+                                   android:layout_gravity="top"
+                                   android:src="@drawable/cherry003_adachi_episode_select"/>
+                           </FrameLayout>
+
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="0dp"
+                               android:layout_weight="0.48"/>
+                       </LinearLayout>
+
+                       <!-- 에피소드6 -->
+                       <LinearLayout
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_marginLeft="50dp"
+                           android:orientation="vertical">
+
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="0dp"
+                               android:layout_weight="1.57"/>
+
+                           <FrameLayout
+                               android:layout_width="wrap_content"
+                               android:layout_height="0dp"
+                               android:layout_weight="8.41">
+
+                               <LinearLayout
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:orientation="vertical">
+
+                                   <FrameLayout
+                                       android:layout_width="wrap_content"
+                                       android:layout_height="0dp"
+                                       android:layout_weight="7.42">
+
+                                       <ImageView
+                                           android:id="@+id/cherry003_adachi_episode6_thumnail"
+                                           android:layout_width="wrap_content"
+                                           android:layout_height="wrap_content"
+                                           android:adjustViewBounds="true"
+                                           android:layout_gravity="top"/>
+
+                                       <ImageView
+                                           android:id="@+id/cherry003_adachi_episode6_unselect"
+                                           android:layout_width="wrap_content"
+                                           android:layout_height="wrap_content"
+                                           android:adjustViewBounds="true"
+                                           android:layout_gravity="top"
+                                           android:src="@drawable/cherry003_adachi_episode_unselect"/>
+
+                                       <ImageView
+                                           android:id="@+id/cherry003_adachi_episode6_text"
+                                           android:layout_width="wrap_content"
+                                           android:layout_height="wrap_content"
+                                           android:adjustViewBounds="true"
+                                           android:layout_gravity="top"/>
+
+                                   </FrameLayout>
+
+                                   <TextView
+                                       android:layout_width="wrap_content"
+                                       android:layout_height="0dp"
+                                       android:layout_weight="0.99"/>
+
+                               </LinearLayout>
+
+                               <ImageView
+                                   android:id="@+id/cherry003_adachi_episode6_select"
+                                   android:visibility="invisible"
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:adjustViewBounds="true"
+                                   android:layout_gravity="top"
+                                   android:src="@drawable/cherry003_adachi_episode_select"/>
+                           </FrameLayout>
+
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="0dp"
+                               android:layout_weight="0.48"/>
+                       </LinearLayout>
+                   </LinearLayout>
+
+                </HorizontalScrollView>
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="10.01"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="18.97"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="6.38">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.88"/>
+
+                <ImageView
+                    android:id="@+id/adachi_episode_story"
+                    android:visibility="invisible"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="45.06"
+                    android:adjustViewBounds="true"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.83"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="2.08"/>
+
+        </LinearLayout>
+
+        <!-- 뒤로가기 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="43.76"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3.64"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.30"/>
+                <TextView
+                    android:id="@+id/cherry3_back_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.99"
+                    android:background="@drawable/cherry002_back_button"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="25.14"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.37"/>
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/cherry3_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/cherry003_adachi_episode_main_back"
+        android:adjustViewBounds="true"/>
+
+    <ProgressBar
+        android:id="@+id/cherry3_progressBar"
+        android:visibility="invisible"
+        style="?android:attr/progressBarStyle"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</FrameLayout>

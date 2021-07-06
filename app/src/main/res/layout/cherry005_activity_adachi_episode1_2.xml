@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <!-- 백그라운드 -->
+        <ImageView
+            android:id="@+id/cherry5_background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:src="@drawable/cherry005_adachi_play_episode1_07_background1"/>
+
+        <!-- 캐릭터 설명 화살표 -->
+        <ImageView
+            android:id="@+id/cherry5_introduce_kurosawa"
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:layout_gravity="center"
+            android:src="@drawable/cherry005_adachi_play_episode1_08_introduce_kurosawa"/>
+
+        <!-- 텍스트 박스 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.96"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="44.85"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="19.99"/>
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="6.63">
+                    <ImageView
+                        android:id="@+id/cherry5_textBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/cherry_episode_text_box"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2.61"/>
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_weight="39.62">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="0dp"
+                                android:layout_weight="1.70"/>
+                            <com.dokidoki.OutlineTextView
+                                android:id="@+id/cherry5_textview1"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1.30"
+                                app:textStroke="true"
+                                app:textStrokeColor="#000000"
+                                app:textStrokeWidth="4.0"
+                                android:textColor="@color/white"
+                                android:singleLine="true"
+                                android:autoSizeTextType="uniform"
+                                android:textStyle="bold"
+                                android:fontFamily="@font/app_main_font"
+                                android:text=""/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="0dp"
+                                android:layout_weight="3.63"/>
+                        </LinearLayout>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2.61"/>
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2.61"/>
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_weight="39.62">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="0dp"
+                                android:layout_weight="3.53"/>
+                            <com.dokidoki.OutlineTextView
+                                android:id="@+id/cherry5_textview2"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1.32"
+                                app:textStroke="true"
+                                app:textStrokeColor="#000000"
+                                app:textStrokeWidth="4.0"
+                                android:textColor="@color/white"
+                                android:singleLine="true"
+                                android:autoSizeTextType="uniform"
+                                android:textStyle="bold"
+                                android:fontFamily="@font/app_main_font"
+                                android:text=""/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="0dp"
+                                android:layout_weight="1.78"/>
+                        </LinearLayout>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2.61"/>
+                    </LinearLayout>
+
+
+                    <!-- 대화 화살표 -->
+                    <LinearLayout
+                        android:id="@+id/cherry5_next_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:clickable="true">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="42.1"/>
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.37"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="0dp"
+                                android:layout_weight="2.72"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="0dp"
+                                android:layout_weight="0.96"
+                                android:background="@drawable/cherry_episode_text_next">
+                            </TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="0dp"
+                                android:layout_weight="2.95"/>
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.37"/>
+                    </LinearLayout>
+                </FrameLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.81"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.96"/>
+        </LinearLayout>
+
+        <!-- 선택지 (앉을지 vs 쿠로사와 말 들을지) -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="36.14"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="12.63"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="4.93"/>
+                <TextView
+                    android:id="@+id/cherry5_case1"
+                    android:visibility="invisible"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2.36"
+                    android:background="@drawable/cherry005_adachi_play_episode1_10_select1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.00"/>
+                <TextView
+                    android:id="@+id/cherry5_case2"
+                    android:visibility="invisible"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2.36"
+                    android:background="@drawable/cherry005_adachi_play_episode1_10_select2"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="16.78"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- 젤 위 메뉴 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3.30"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.91"/>
+                <TextView
+                    android:id="@+id/cherry5_menu_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="3.31"
+                    android:background="@drawable/cherry_episode_menu"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="23.21"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="45.47"/>
+        </LinearLayout>
+
+    </FrameLayout>
+
+</FrameLayout>

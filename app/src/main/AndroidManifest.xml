@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dokidoki">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DokiDoki">
+
+        <activity android:name=".Cherry0_SplashActivity"
+            android:theme="@style/splashTheme"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Cherry0_Login"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity android:name=".Cherry0_Login_Error"
+            android:theme="@style/Transparent"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity android:name=".Cherry1_MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity android:name=".Cherry2_CharacterSelectActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity android:name=".Cherry2_CollectionActivity"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity android:name=".Cherry3_EpisodeSelectActivity"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity android:name=".Cherry4_Adachi_Episode1_1"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity android:name=".Cherry5_Adachi_Episode1_2"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity android:name=".Cherry6_Adachi_Episode1_3"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity android:name=".Cherry7_Adachi_Episode1_4"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity android:name=".Cherry8_Adachi_Episode2_1"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity android:name=".Cherry9_Adachi_Episode2_2"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity android:name=".Cherry10_Adachi_Episode2_3"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity android:name=".Cherry11_Adachi_Episode3_1"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity android:name=".Cherry12_Adachi_Episode3_2"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity android:name=".Cherry13_Adachi_Episode3_3"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity android:name=".Cherry14_Adachi_Episode3_4"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity android:name=".Cherry100_Episode_Pause"
+            android:theme="@style/Transparent"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity android:name=".Cherry101_AdachiEpisodeClearActivity"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity android:name=".Cherry102_No_NextEpisode"
+            android:theme="@style/Transparent"
+            android:screenOrientation="landscape">
+        </activity>
+
+
+        <activity android:name=".Cherry103_New_StartMessage"
+            android:theme="@style/Transparent"
+            android:screenOrientation="landscape">
+        </activity>
+
+    </application>
+
+</manifest>

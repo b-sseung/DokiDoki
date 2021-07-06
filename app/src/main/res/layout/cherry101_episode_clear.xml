@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <FrameLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center">
+       <ImageView
+           android:id="@+id/cherry101_background"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:adjustViewBounds="true"
+           android:src="@drawable/adachi_episode1_background"/>
+
+       <ImageView
+           android:id="@+id/cherry101_title"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:adjustViewBounds="true"
+           android:src="@drawable/cherry004_adachi_play_episode1_title"/>
+
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:adjustViewBounds="true"
+           android:src="@drawable/adachi_play_episode_clear"/>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+           <TextView
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_weight="2.01" />
+
+           <LinearLayout
+               android:layout_width="0dp"
+               android:layout_height="match_parent"
+               android:layout_weight="5.00"
+               android:orientation="vertical">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="0dp"
+                   android:layout_weight="1.02" />
+
+               <com.dokidoki.OutlineTextView
+                   android:id="@+id/cherry011_clear_main"
+                   android:layout_width="match_parent"
+                   android:layout_height="0dp"
+                   android:layout_weight="1.25"
+                   android:autoSizeTextType="uniform"
+                   android:fontFamily="@font/app_main_font"
+                   android:singleLine="true"
+                   android:text="&lt; 메인화면"
+                   android:textColor="@color/white"
+                   android:textStyle="bold"
+                   app:textStroke="true"
+                   app:textStrokeColor="#000000"
+                   app:textStrokeWidth="4.0" /> <!-- &lt; 는 <를 의미 -->
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="0dp"
+                   android:layout_weight="25.14" />
+           </LinearLayout>
+
+           <TextView
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_weight="32.17" />
+
+           <LinearLayout
+               android:layout_width="0dp"
+               android:layout_height="match_parent"
+               android:layout_weight="7.57"
+               android:orientation="vertical">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="0dp"
+                   android:layout_weight="1.02" />
+
+               <com.dokidoki.OutlineTextView
+                   android:id="@+id/cherry011_clear_next"
+                   android:layout_width="match_parent"
+                   android:layout_height="0dp"
+                   android:layout_weight="1.25"
+                   android:autoSizeTextType="uniform"
+                   android:fontFamily="@font/app_main_font"
+                   android:gravity="right"
+                   android:singleLine="true"
+                   android:text="다음 에피소드 >"
+                   android:textColor="@color/white"
+                   android:textStyle="bold"
+                   app:textStroke="true"
+                   app:textStrokeColor="#000000"
+                   app:textStrokeWidth="4.0" />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="0dp"
+                   android:layout_weight="25.14" />
+           </LinearLayout>
+
+           <TextView
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_weight="2.01" />
+       </LinearLayout>
+   </FrameLayout>
+</FrameLayout>

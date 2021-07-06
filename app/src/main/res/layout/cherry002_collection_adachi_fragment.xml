@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                app:columnCount="5">
+
+                <ImageView
+                    android:id="@+id/cherry002_collection_adachi_01"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"/>
+
+                <ImageView
+                    android:id="@+id/cherry002_collection_adachi_02"
+                    android:visibility="invisible"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"/>
+
+                <ImageView
+                    android:id="@+id/cherry002_collection_adachi_03"
+                    android:visibility="invisible"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"/>
+
+                <ImageView
+                    android:id="@+id/cherry002_collection_adachi_04"
+                    android:visibility="invisible"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"/>
+
+                <ImageView
+                    android:id="@+id/cherry002_collection_adachi_05"
+                    android:visibility="invisible"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"/>
+
+                <ImageView
+                    android:id="@+id/cherry002_collection_adachi_06"
+                    android:visibility="invisible"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"/>
+
+                <ImageView
+                    android:id="@+id/cherry002_collection_adachi_07"
+                    android:visibility="invisible"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"/>
+
+                <ImageView
+                    android:id="@+id/cherry002_collection_adachi_08"
+                    android:visibility="invisible"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"/>
+
+                <ImageView
+                    android:id="@+id/cherry002_collection_adachi_09"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"/>
+
+                <ImageView
+                    android:id="@+id/cherry002_collection_adachi_10"
+                    android:visibility="invisible"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"/>
+
+                <ImageView
+                    android:id="@+id/cherry002_collection_adachi_11"
+                    android:visibility="invisible"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"/>
+
+                <ImageView
+                    android:id="@+id/cherry002_collection_adachi_12"
+                    android:visibility="invisible"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"/>
+
+                <ImageView
+                    android:id="@+id/cherry002_collection_adachi_13"
+                    android:visibility="invisible"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"/>
+
+                <ImageView
+                    android:id="@+id/cherry002_collection_adachi_14"
+                    android:visibility="invisible"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"/>
+
+                <ImageView
+                    android:id="@+id/cherry002_collection_adachi_15"
+                    android:visibility="invisible"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"/>
+
+                <ImageView
+                    android:id="@+id/cherry002_collection_adachi_16"
+                    android:visibility="invisible"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"/>
+
+                <ImageView
+                    android:id="@+id/cherry002_collection_adachi_17"
+                    android:visibility="invisible"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"/>
+
+                <ImageView
+                    android:id="@+id/cherry002_collection_adachi_18"
+                    android:visibility="invisible"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"/>
+
+                <ImageView
+                    android:id="@+id/cherry002_collection_adachi_19"
+                    android:visibility="invisible"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"/>
+
+                <ImageView
+                    android:id="@+id/cherry002_collection_adachi_20"
+                    android:visibility="invisible"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:adjustViewBounds="true"/>
+
+            </androidx.gridlayout.widget.GridLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
